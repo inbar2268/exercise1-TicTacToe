@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        //binding?.restartGameButton?.setOnClickListener(){restartGame()}
+        ////binding?.restartGameButton?.setOnClickListener(){restartGame()}
     }
 
     private fun cellClicked(imageButton: ImageButton, cellNumber: Int){
