@@ -54,4 +54,14 @@ class MainActivity : AppCompatActivity() {
         return listOf(binding?.button1, binding?.button2, binding?.button3, binding?.button4, binding?.button5, binding?.button6, binding?.button7, binding?.button8 ,binding?.button9)
     }
 
+    private fun switchTurn() {
+        if (playerTurn == 1) {
+            playerTurn = 2
+            binding?.playerSymbol?.text = "Player: O"
+        } else {
+            playerTurn = 1
+            binding?.playerSymbol?.text = "Player: X"
+        }
+    }
+
 }
